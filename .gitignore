@@ -1,0 +1,23 @@
+# Variables d'environnement et secrets
+.env
+.env.*
+!.env.example
+**/.env
+**/.env.*
+!**/.env.example
+
+# Dépendances et fichiers générés
+node_modules/
+**/node_modules/
+dist/
+**/dist/
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+
+# Fichiers locaux et système
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
